@@ -23,7 +23,7 @@ class ExampleTest {
     @Test
     void test() {
         List<Dirigeant> d = dirigeantRepository.findAll();
-        assertEquals(10000, d.size());
+        assertEquals(20000, d.size());
     }
 
 }
